@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Player": {
+    "dataSource": "arangodb",
+    "public": true
+  },
+  "Game": {
+    "dataSource": "arangodb",
+    "public": true
   }
 }

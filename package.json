@@ -5,23 +5,27 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "test": "mocha"
   },
   "dependencies": {
-    "compression": "^1.0.3",
-    "cors": "^2.5.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
     "helmet": "^1.3.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^2.4.0",
-    "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1",
-    "loopback-datasource-juggler": "^2.39.0",
-    "loopback": "^2.22.0"
+    "loopback": "^3.18.1",
+    "loopback-boot": "^2.27.0",
+    "loopback-component-explorer": "^5.2.0",
+    "loopback-connector-arangodb": "^2.0.4",
+    "serve-favicon": "^2.4.5",
+    "strong-error-handler": "^1.2.1"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
-    "nsp": "^2.1.0"
+    "mocha": "^5.0.0",
+    "nsp": "^2.1.0",
+    "supertest": "^3.0.0"
   },
   "repository": {
     "type": "",
